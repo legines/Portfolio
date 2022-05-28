@@ -1,0 +1,14 @@
+<div class="project" (click)="goToUrl()">
+    <img class="screenshot" src="{{url}}">
+    <p>
+        <a href="{{projectUrl}}" target="_blank" rel=”noopener”>
+            {{projectTitle}}
+        </a>
+        {{projectText}}
+    </p>
+    <div class="tech" *ngIf="['./assets/gp.png', './assets/hangman.png'].includes(url)">
+        <label>OLD</label>
+        <!-- <img *ngFor="let icon of icons" src="{{icon}}"> -->
+    </div>
+</div>
+

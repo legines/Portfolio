@@ -1,0 +1,37 @@
+<div class="home">
+  <div class="header">
+      <a href="mailto:legines@gmail.com" target="_blank" rel=”noopener”>
+        <i class="fa-regular fa-envelope"></i>
+      </a>
+      <a class="mid" href="https://github.com/legines" target="_blank" rel=”noopener”>
+        <i class="fa-brands fa-github-square"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/luis-gines/" target="_blank" rel=”noopener”>
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+  </div>
+  <div class="main">
+    <div class="name-container">
+      <div class="name">
+        <label>Luis Gines</label>
+        <p>Full Stack Developer</p>
+      </div>
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAGF-l79ULiz_oDfctnhou1rsfnGSm-cC8IEaDEvPhg%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1">
+    </div>
+    <div class="about">
+      <label class="underlined">Bio</label>
+      Hello, I am a full-stack developer based in Long Island with a passion for building stuff. Programming was something I always wanted to do ever
+      since MySpace and Neopets let me edit html and css, however I wound up pursuing Biochemistry. Now I work professionally as a developer and spend my
+      spare time building side projects, riding my bike, or binging the next show on my list.
+    </div>
+    <div class="projects">
+      <label class="underlined">Projects</label>
+      <div class="projects-container">
+        <app-project *ngFor="let url of urls" [url]="url"></app-project>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <label>&copy; 2022 Luis Gines</label>
+  </div>
+</div>
