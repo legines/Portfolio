@@ -27,10 +27,10 @@ export class ProjectComponent implements OnInit {
       this.icons = ['https://pixaflo.com/wp-content/uploads/2019/06/Ruby-page-logo.png', 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1280px-Typescript_logo_2020.svg.png', 'https://www.mica.nl/wp-content/uploads/2020/02/Angular-Logo.png']
       this.projectTitle = 'Ended By Netflix';
       this.projectText = 'is an archive of all the shows that have been ended by Netflix in one way or another (canceled, ended, or unknown). Search through the archive or click on a genre to view all in that section. Detailed show information is shown on hover. Built on a Ruby on Rails backend and an Angualar 12 front end.';
-    } else if (this.url == './assets/gp.png') {
-      this.projectUrl = 'https://powerful-ocean-95718.herokuapp.com';
-      this.projectTitle = 'NC Grand Prix';
-      this.projectText = 'alows users to compare their own commute or favorite track against Formula 1 drivers. Inputting (in mileage) a route commonly driven or the length of your favorite track and the time it takes to complete the route is all that is needed. Built with HTML, JS, Express, Node, and Sequelize and a Formula 1 API.';
+    } else if (this.url == './assets/frag.png') {
+      this.projectUrl = 'https://marketplace.visualstudio.com/items?itemName=bugfrag.bugfrag';
+      this.projectTitle = 'BugFrag';
+      this.projectText = 'is a VSCode theme that combines the Gruvbox Material Dark Hard and One Dark Pro themes. Check it out!';
     } else {
       this.projectUrl = 'https://legines.github.io/Hangman-Game/';
       this.icons = ['https://web.archive.org/web/20200531002729im_/https://d33wubrfki0l68.cloudfront.net/041b1fc21a460c50d6231f6c30666e4b46272708/d0092/images/logos/js-logo.svg'];
