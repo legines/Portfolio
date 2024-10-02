@@ -1,6 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { DriverProvider } from 'protractor/built/driverProviders';
-import { setFlagsFromString } from 'v8';
 
 @Component({
   selector: 'app-project',
@@ -30,11 +28,15 @@ export class ProjectComponent implements OnInit {
     } else if (this.url == './assets/frag.png') {
       this.projectUrl = 'https://marketplace.visualstudio.com/items?itemName=bugfrag.bugfrag';
       this.projectTitle = 'BugFrag';
-      this.projectText = 'is a VSCode theme that combines the Gruvbox Material Dark Hard and One Dark Pro themes. Check it out!';
+      this.projectText = 'is a VSCode theme that combines the Gruvbox Material Dark Hard and One Dark Pro themes. Always a WIP. Check it out!';
     } else if (this.url == './assets/sp.png') {
       this.projectUrl = 'https://legines.github.io/SpareParts/';
       this.projectTitle = 'Spare Parts';
       this.projectText = 'is a personal blog using Angular to document car build projects and notes Ive taken through the years in detail. Not updated regularly.';
+    } else if (this.url == './assets/ayb.png') {
+      this.projectUrl = 'https://legines.github.io/AllYourBaseAreBelongToUs/';
+      this.projectTitle = 'All Your Base Are Belong To Us';
+      this.projectText = 'is a very very simple site, only rendering a video, that used to exist when I was young. I decided to recreate it for fun.'; 
     } else {
       this.projectUrl = 'https://legines.github.io/Hangman-Game/';
       this.icons = ['https://web.archive.org/web/20200531002729im_/https://d33wubrfki0l68.cloudfront.net/041b1fc21a460c50d6231f6c30666e4b46272708/d0092/images/logos/js-logo.svg'];
